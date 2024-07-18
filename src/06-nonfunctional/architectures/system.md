@@ -1,5 +1,6 @@
 <br>
 
+<<<<<<< HEAD
 # System Architectures
 
 
@@ -68,6 +69,9 @@ stateDiagram-v2
 
 <img src="../../../assets/arc-testing.png" alt="Testing">
 
+=======
+# System Architecture
+>>>>>>> 735de18316d6f1077f32c46baa40014d41170c6f
 
 <br>
 <br>
