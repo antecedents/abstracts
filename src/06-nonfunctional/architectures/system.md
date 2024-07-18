@@ -33,6 +33,8 @@ stateDiagram-v2
   id1: T5<br>image<br>container
   id2: PEGASUS<br>image<br>container
   id3: BART<br>image<br>container
+  id4: Failure<br>Notification
+  id5: Failure<br>Notification
   id6: Failure<br>Notification
 
   [*] --> T5
@@ -41,11 +43,15 @@ stateDiagram-v2
   
   state T5 {
     [*] --> id1
+    id1 --> id4: catch
     id1 --> [*]
+    id4 --> [*]
   }
   state PEGASUS {
     [*] --> id2
+    id2 --> id5: catch
     id2 --> [*]
+    id5 --> [*]
   }
   state BART {
     [*] --> id3
