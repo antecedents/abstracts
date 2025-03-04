@@ -38,8 +38,21 @@ Drift
 
 ## References
 
+Sources
+* [Accident & Emergency](https://publichealthscotland.scot/our-areas-of-work/acute-and-emergency-services/urgent-and-unscheduled-care/accident-and-emergency/overview/#section-1)
+* [Scottish Health and Social Care Open Data](https://www.opendata.nhs.scot/dataset)
+  * [Weekly A&E Activity and Waiting Times](https://www.opendata.nhs.scot/dataset/weekly-accident-and-emergency-activity-and-waiting-times)
+  * [Hospital Codes](https://www.opendata.nhs.scot/dataset/hospital-codes)
+  * [Population Estimates](https://www.opendata.nhs.scot/dataset/population-estimates)
+* [Assessment of Accident and Emergency (A&E) Activity Statistics in Scotland](https://osr.statisticsauthority.gov.uk/publication/assessment-of-accident-and-emergency-ae-activity-statistics-in-scotland/)
+* [Five big problems the NHS in Scotland needs to fix](https://www.bbc.com/news/uk-scotland-64303425)
+
+<br>
+
 Text
 * [Statistical forecasting: notes on regression and time series analysis](https://people.duke.edu/~rnau/411home.htm)
+  * [Identifying the order of differencing in an ARIMA model](https://people.duke.edu/~rnau/411arim2.htm)
+  * [Identifying the numbers of AR or MA terms in an ARIMA model](https://people.duke.edu/~rnau/411arim3.htm)
 * [Forecasting: Principles & Practice $\bigl(2^{ND}\; Edition\bigr)$](https://otexts.com/fpp2)
 
 <br>
@@ -69,16 +82,38 @@ Stationarity
 Autocorrelation
 * [Ljung-Box test of autocorrelation in residuals](https://www.statsmodels.org/dev/generated/statsmodels.stats.diagnostic.acorr_ljungbox.html#statsmodels.stats.diagnostic.acorr_ljungbox)
 * [Autocorrelation Function / Partial Autocorrelation Function](https://www.baeldung.com/cs/acf-pacf-plots-arma-modeling)
+* Partial Auto Correlation Function: [1](https://www.statsmodels.org/stable/generated/statsmodels.graphics.tsaplots.plot_pacf.html), [2](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4463.htm)
 
- <br>
- <br>
+<br>
+
+Bayesian Machine Learning Properties
+* [Bayesian Modelling Notes](https://github.com/plausibilities/delineating#notes)
+* [Notation: State Space Model, Kalman Filter](https://dismalpy.github.io/user/ssm/2-state_space_models.html)
+* [<abbr title="Markov Chain Monte Carlo">MCMC</abbr> Convergence Diagnostic](https://search.r-project.org/CRAN/refmans/LaplacesDemon/html/Gelman.Diagnostic.html)
+* [Convergence and efficiency diagnostics for Markov Chains](https://mc-stan.org/rstan/reference/Rhat.html)
+* [Effective Sample Size (ESS) due to Auto-correlation](https://search.r-project.org/CRAN/refmans/LaplacesDemon/html/ESS.html)
+* [<abbr title="Monte Carlo Standard Error">MCSE</abbr>: Equation & References](https://search.r-project.org/CRAN/refmans/LaplacesDemon/html/MCSE.html)
+* [Understanding and interpreting confidence and credible intervals around effect estimates](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6630113/)
+
+
+<br>
+
+Additionally
+* [Model Identification for Southern Oscillations Data](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4461.htm)
+* [Robust de-trending, re-referencing, outlier detection, and inpainting for multichannel data](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915520/)
+* [Using ARIMA and ETS models for forecasting water level changes for sustainable environmental management](https://www.nature.com/articles/s41598-024-73405-9)
+* [Natural Logarithm Transformations](https://www.bridgetext.com/log-transforming-time-series-data-in-r)
+
+
+<br>
+<br>
  
- <br>
- <br>
+<br>
+<br>
  
- <br>
- <br>
+<br>
+<br>
  
- <br>
- <br>
+<br>
+<br>
  
