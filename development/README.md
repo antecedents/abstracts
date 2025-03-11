@@ -1,44 +1,8 @@
 
 <br>
 
-## Environment
+## About
 
-GIT
-* [Demystifying the Git Commit Hash - A Beginner‘s Guide](thelinuxcode.com/git-commit-hash-and-how-to-get-it/)
-* [Why you should pin your GitHub Actions by commit-hash](https://blog.rafaelgss.dev/why-you-should-pin-actions-by-commit-hash)
-
-Graphing
-* [pyplot.plot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)
-* [matplotlib.markers](https://matplotlib.org/stable/api/markers_api.html#module-matplotlib.markers)
-
-<br>
-<br>
-
-## Notes
-
-Monitoring
-* [Process/Product Monitoring & Control](https://www.itl.nist.gov/div898/handbook/pmc/pmc.htm)
-* [Variables Control Charts](https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc32.htm)
-
-<br>
-
-Model Identification
-* [Model Identification](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4461.htm)
-
-
-<br>
-
-Drift
-* [Understanding Data Drift and Model Drift: Drift Detection in Python](https://www.datacamp.com/tutorial/understanding-data-drift-model-drift)
-* [How To Detect Data Drift on Datasets](https://encord.com/blog/detect-data-drift/)
-
-
-<br>
-<br>
-
-## References
-
-Sources
 * [Accident & Emergency](https://publichealthscotland.scot/our-areas-of-work/acute-and-emergency-services/urgent-and-unscheduled-care/accident-and-emergency/overview/#section-1)
 * [Scottish Health and Social Care Open Data](https://www.opendata.nhs.scot/dataset)
   * [Weekly A&E Activity and Waiting Times](https://www.opendata.nhs.scot/dataset/weekly-accident-and-emergency-activity-and-waiting-times)
@@ -47,7 +11,12 @@ Sources
 * [Assessment of Accident and Emergency (A&E) Activity Statistics in Scotland](https://osr.statisticsauthority.gov.uk/publication/assessment-of-accident-and-emergency-ae-activity-statistics-in-scotland/)
 * [Five big problems the NHS in Scotland needs to fix](https://www.bbc.com/news/uk-scotland-64303425)
 
+
 <br>
+<br>
+
+
+## References
 
 Text
 * [Statistical forecasting: notes on regression and time series analysis](https://people.duke.edu/~rnau/411home.htm)
@@ -97,19 +66,41 @@ Bayesian Machine Learning Properties
 
 <br>
 
+Additionally
+* [Model Identification](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4461.htm)
+* [Robust de-trending, re-referencing, outlier detection, and inpainting for multichannel data](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915520/)
+* [Using ARIMA and ETS models for forecasting water level changes for sustainable environmental management](https://www.nature.com/articles/s41598-024-73405-9)
+* [Natural Logarithm Transformations](https://www.bridgetext.com/log-transforming-time-series-data-in-r)
+
+<br>
+<br>
+
+
+## Environment & Engineering
+
+GIT
+* [Demystifying the Git Commit Hash - A Beginner‘s Guide](thelinuxcode.com/git-commit-hash-and-how-to-get-it/)
+* [Why you should pin your GitHub Actions by commit-hash](https://blog.rafaelgss.dev/why-you-should-pin-actions-by-commit-hash)
+
+Graphing
+* [pyplot.plot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)
+* [matplotlib.markers](https://matplotlib.org/stable/api/markers_api.html#module-matplotlib.markers)
+
 Engineering
 * [Parallelism](https://docs.deepmodeling.com/projects/deepmd/en/master/troubleshooting/howtoset_num_nodes.html)
   * [Runtime Variables](https://docs.deepmodeling.com/projects/deepmd/en/v3.0.0b4/env.html)
 * [Parallel Processing (including terminology)](https://stat243.berkeley.edu/fall-2024/units/unit6-parallel.html)
 * [TensorFlow Runtime (TFRT)](https://blog.tensorflow.org/2020/04/tfrt-new-tensorflow-runtime.html)
 
-<br>
+Monitoring
+* [Process/Product Monitoring & Control](https://www.itl.nist.gov/div898/handbook/pmc/pmc.htm)
+* [Variables Control Charts](https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc32.htm)
 
-Additionally
-* [Model Identification for Southern Oscillations Data](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4461.htm)
-* [Robust de-trending, re-referencing, outlier detection, and inpainting for multichannel data](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915520/)
-* [Using ARIMA and ETS models for forecasting water level changes for sustainable environmental management](https://www.nature.com/articles/s41598-024-73405-9)
-* [Natural Logarithm Transformations](https://www.bridgetext.com/log-transforming-time-series-data-in-r)
+Drift
+* [Understanding Data Drift and Model Drift: Drift Detection in Python](https://www.datacamp.com/tutorial/understanding-data-drift-model-drift)
+* [How To Detect Data Drift on Datasets](https://encord.com/blog/detect-data-drift/)
+
+
 
 
 <br>
