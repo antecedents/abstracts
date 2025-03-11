@@ -77,6 +77,18 @@ Additionally
 
 ## Environment & Engineering
 
+Monitoring
+* [Process/Product Monitoring & Control](https://www.itl.nist.gov/div898/handbook/pmc/pmc.htm)
+* [Variables Control Charts](https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc32.htm)
+
+<br>
+
+Drift
+* [Understanding Data Drift and Model Drift: Drift Detection in Python](https://www.datacamp.com/tutorial/understanding-data-drift-model-drift)
+* [How To Detect Data Drift on Datasets](https://encord.com/blog/detect-data-drift/)
+
+<br>
+
 GIT
 * [Demystifying the Git Commit Hash - A Beginner‘s Guide](thelinuxcode.com/git-commit-hash-and-how-to-get-it/)
 * [Why you should pin your GitHub Actions by commit-hash](https://blog.rafaelgss.dev/why-you-should-pin-actions-by-commit-hash)
@@ -95,17 +107,7 @@ Engineering
 * [Parallel Processing (including terminology)](https://stat243.berkeley.edu/fall-2024/units/unit6-parallel.html)
 * [TensorFlow Runtime (TFRT)](https://blog.tensorflow.org/2020/04/tfrt-new-tensorflow-runtime.html)
 
-<br>
 
-Monitoring
-* [Process/Product Monitoring & Control](https://www.itl.nist.gov/div898/handbook/pmc/pmc.htm)
-* [Variables Control Charts](https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc32.htm)
-
-<br>
-
-Drift
-* [Understanding Data Drift and Model Drift: Drift Detection in Python](https://www.datacamp.com/tutorial/understanding-data-drift-model-drift)
-* [How To Detect Data Drift on Datasets](https://encord.com/blog/detect-data-drift/)
 
 <br>
 <br>
