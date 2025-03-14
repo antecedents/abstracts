@@ -4,7 +4,6 @@
 * [Model Development References](#model-development-references)
 * [Environment & Engineering](#environment--engineering)
 
-
 <br>
 
 ## Background
@@ -133,6 +132,36 @@ BLAS, etc.
 DASK
 * [Scheduler](https://docs.dask.org/en/stable/scheduler-overview.html)
 
+<br>
+
+## Snippets
+
+Settings for computations
+
+
+```python
+pytensor.config.blas__ldflags = '-llapack -lblas -lcblas'
+```
+
+```python
+pytensor.config.mode = 'NUMBA'
+```
+
+```python
+os.environ['OMP_NUM_THREADS'] = ''
+os.environ['DP_INTRA_OP_PARALLELISM_THREADS'] = ''
+os.environ['DP_INTER_OP_PARALLELISM_THREADS'] = ''
+```
+
+```python
+os.environ['XLA_FLAGS'] = (
+  '--xla_disable_hlo_passes=constant_folding '
+  f'--xla_force_host_platform_device_count={} ')
+```
+
+Seasonal Component Modelling: Warnings
+* ConvergenceWarning: Maximum Likelihood optimization failed to converge.
+* OptimizeWarning: Desired error not necessarily achieved due to precision loss.
 
 <br>
 <br>
