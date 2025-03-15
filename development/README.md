@@ -111,6 +111,10 @@ Parallel Computing
   * [Runtime Variables](https://docs.deepmodeling.com/projects/deepmd/en/v3.0.0b4/env.html)
 * [Parallel Processing (including terminology)](https://stat243.berkeley.edu/fall-2024/units/unit6-parallel.html)
 * [TensorFlow Runtime (TFRT)](https://blog.tensorflow.org/2020/04/tfrt-new-tensorflow-runtime.html)
+* Multiprocessing
+  [multiprocessing (python)](https://docs.python.org/3/library/multiprocessing.html)
+  [Multiprocessing in Python](https://superfastpython.com/multiprocessing-in-python)
+  [multiprocessing.pool.Pool()](https://superfastpython.com/multiprocessing-pool-python/)
 
 JAX, XLA, etc.
 * [OpenXLA (Open Accelerated Linear Algebra)](https://openxla.org)
@@ -149,8 +153,6 @@ pytensor.config.mode = 'NUMBA'
 
 ```python
 os.environ['OMP_NUM_THREADS'] = ''
-os.environ['DP_INTRA_OP_PARALLELISM_THREADS'] = ''
-os.environ['DP_INTER_OP_PARALLELISM_THREADS'] = ''
 ```
 
 ```python
