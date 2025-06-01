@@ -53,9 +53,9 @@ Stationarity
 
 <br>
 
-Autocorrelation
+Auto-correlation
 * [Ljung-Box test of autocorrelation in residuals](https://www.statsmodels.org/dev/generated/statsmodels.stats.diagnostic.acorr_ljungbox.html#statsmodels.stats.diagnostic.acorr_ljungbox)
-* [Autocorrelation Function / Partial Autocorrelation Function](https://www.baeldung.com/cs/acf-pacf-plots-arma-modeling)
+* [Auto-correlation Function / Partial Autocorrelation Function](https://www.baeldung.com/cs/acf-pacf-plots-arma-modeling)
 * Partial Auto Correlation Function: [1](https://www.statsmodels.org/stable/generated/statsmodels.graphics.tsaplots.plot_pacf.html), [2](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4463.htm)
 
 <br>
@@ -81,6 +81,12 @@ Additionally
 <br>
 
 ## Environment & Engineering
+
+Alerting
+* [Start workflow executions from a task state in Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/concepts-nested-workflows.html)
+* [Deploy a state machine using a starter template for Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/starter-templates.html)
+
+<br>
 
 Monitoring
 * [Process/Product Monitoring & Control](https://www.itl.nist.gov/div898/handbook/pmc/pmc.htm)
@@ -116,6 +122,8 @@ Parallel Computing
   [Multiprocessing in Python](https://superfastpython.com/multiprocessing-in-python)
   [multiprocessing.pool.Pool()](https://superfastpython.com/multiprocessing-pool-python/)
 
+<br>
+
 JAX, XLA, etc.
 * [OpenXLA (Open Accelerated Linear Algebra)](https://openxla.org)
 * [Setting XLA Flags](https://docs.jax.dev/en/latest/xla_flags.html)
@@ -127,14 +135,25 @@ JAX, XLA, etc.
 * [Controlling data and computation placement on devices](https://docs.jax.dev/en/latest/faq.html#controlling-data-and-computation-placement-on-devices)
 * [JAX & NUMPYRO Configuration](https://ringdown.readthedocs.io/en/latest/configuration.html)
 
+<br>
+
 BLAS, etc.
 * [How do I configure/test my BLAS library](https://pytensor.readthedocs.io/en/latest/troubleshooting.html#how-do-i-configure-test-my-blas-library)
 * [NUMBA](https://numba.readthedocs.io/en/stable/index.html), [Guide](https://numba.readthedocs.io/en/stable/user/5minguide.html)
 * [MCMC for big datasets: faster sampling with JAX and the GPU](https://www.pymc-labs.com/blog-posts/pymc-stan-benchmark/)
 * [numpyro.util](https://num.pyro.ai/en/stable/_modules/numpyro/util.html)
 
+<br>
+
 DASK
 * [Scheduler](https://docs.dask.org/en/stable/scheduler-overview.html)
+
+<br>
+
+
+TENSORFLOW
+* [Amazon EMR & TensorFlow](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-tensorflow.html)
+* [TensorFlow & Docker](https://www.tensorflow.org/install/docker#examples_using_gpu-enabled_images)
 
 <br>
 
