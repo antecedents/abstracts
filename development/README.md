@@ -3,6 +3,8 @@
 * [Background](#background)
 * [Model Development References](#model-development-references)
 * [Environment & Engineering](#environment--engineering)
+* [Snippets](#snippets)
+* [NGINX, etc.](#nginx-etc)
 
 <br>
 
@@ -23,6 +25,18 @@
 
 ## Model Development References
 
+Bayesian Machine Learning Properties
+* [TensorFlow Probability](https://www.tensorflow.org/probability)
+* [Bayesian Modelling Notes](https://github.com/plausibilities/delineating#notes)
+* [Notation: State Space Model, Kalman Filter](https://dismalpy.github.io/user/ssm/2-state_space_models.html)
+* [<abbr title="Markov Chain Monte Carlo">MCMC</abbr> Convergence Diagnostic](https://search.r-project.org/CRAN/refmans/LaplacesDemon/html/Gelman.Diagnostic.html)
+* [Convergence and efficiency diagnostics for Markov Chains](https://mc-stan.org/rstan/reference/Rhat.html)
+* [Effective Sample Size (ESS) due to Auto-correlation](https://search.r-project.org/CRAN/refmans/LaplacesDemon/html/ESS.html)
+* [<abbr title="Monte Carlo Standard Error">MCSE</abbr>: Equation & References](https://search.r-project.org/CRAN/refmans/LaplacesDemon/html/MCSE.html)
+* [Understanding and interpreting confidence and credible intervals around effect estimates](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6630113/)
+
+<br>
+
 Text
 * [Statistical forecasting: notes on regression and time series analysis](https://people.duke.edu/~rnau/411home.htm)
   * [Identifying the order of differencing in an ARIMA model](https://people.duke.edu/~rnau/411arim2.htm)
@@ -35,6 +49,7 @@ Forecasting
 * [Stationarity and differencing](https://otexts.com/fpp2/stationarity.html)
 * [Season-Trend decomposition using LOESS (locally estimated scatterplot smoothing)](https://www.statsmodels.org/dev/generated/statsmodels.tsa.seasonal.STL.html)
   * [Decomposition & Forecasting with STL](https://www.statsmodels.org/dev/examples/notebooks/generated/stl_decomposition.html)
+  * [Decompose](https://www.statsmodels.org/dev/generated/statsmodels.tsa.seasonal.seasonal_decompose.html)
   * [Forecasting with decomposition](https://otexts.com/fpp2/forecasting-decomposition.html), [ARIMA (AutoRegressive Integrated Moving Average)](https://www.statsmodels.org/dev/generated/statsmodels.tsa.arima.model.ARIMA.html#statsmodels.tsa.arima.model.ARIMA)
   * [STL Forecast Class: Seasonal Trend LOESS  Forecast Class](https://www.statsmodels.org/dev/generated/statsmodels.tsa.forecasting.stl.STLForecast.html#statsmodels.tsa.forecasting.stl.STLForecast)
 * [Seasonal ARIMA models](https://otexts.com/fpp2/seasonal-arima.html)
@@ -43,31 +58,27 @@ Forecasting
 * [Non-seasonal ARIMA models](https://otexts.com/fpp2/non-seasonal-arima.html)
 * [AutoRegression](https://blog.quantinsti.com/autoregression/)
 * [Evaluating forecast accuracy](https://otexts.com/fpp2/accuracy.html), [Forecasting on training and test sets](https://otexts.com/fpp2/forecasting-on-training-and-test-sets.html)
+* [Robust de-trending, re-referencing, outlier detection, and inpainting for multichannel data](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915520/)
+* [Using ARIMA and ETS models for forecasting water level changes for sustainable environmental management](https://www.nature.com/articles/s41598-024-73405-9)
+* [Natural Logarithm Transformations](https://www.bridgetext.com/log-transforming-time-series-data-in-r)
+* [Statistical forecasting: notes on regression and time series analysis](https://people.duke.edu/~rnau/411home.htm)
+  * [Identifying the order of differencing in an ARIMA model](https://people.duke.edu/~rnau/411arim2.htm)
+  * [Identifying the numbers of AR or MA terms in an ARIMA model](https://people.duke.edu/~rnau/411arim3.htm)
+
 
 <br>
 
 Stationarity
 * [Stationarity and differencing](https://otexts.com/fpp2/stationarity.html)
 * [Kwiatkowski-Phillips-Schmidt-Shin (KPSS) test for stationarity](https://www.statsmodels.org/dev/generated/statsmodels.tsa.stattools.kpss.html#statsmodels.tsa.stattools.kpss)
-* [Stationarity and detrending [ADF (Augmented Dickey Fuller)/KPSS]](https://www.statsmodels.org/dev/examples/notebooks/generated/stationarity_detrending_adf_kpss.html)
+* [Stationarity and de-trending [ADF (Augmented Dickey Fuller)/KPSS]](https://www.statsmodels.org/dev/examples/notebooks/generated/stationarity_detrending_adf_kpss.html)
 
 <br>
 
 Auto-correlation
-* [Ljung-Box test of autocorrelation in residuals](https://www.statsmodels.org/dev/generated/statsmodels.stats.diagnostic.acorr_ljungbox.html#statsmodels.stats.diagnostic.acorr_ljungbox)
-* [Auto-correlation Function / Partial Autocorrelation Function](https://www.baeldung.com/cs/acf-pacf-plots-arma-modeling)
+* [Ljung-Box test of auto-correlation in residuals](https://www.statsmodels.org/dev/generated/statsmodels.stats.diagnostic.acorr_ljungbox.html#statsmodels.stats.diagnostic.acorr_ljungbox)
+* [Auto-correlation Function / Partial Auto-correlation Function](https://www.baeldung.com/cs/acf-pacf-plots-arma-modeling)
 * Partial Auto Correlation Function: [1](https://www.statsmodels.org/stable/generated/statsmodels.graphics.tsaplots.plot_pacf.html), [2](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4463.htm)
-
-<br>
-
-Bayesian Machine Learning Properties
-* [Bayesian Modelling Notes](https://github.com/plausibilities/delineating#notes)
-* [Notation: State Space Model, Kalman Filter](https://dismalpy.github.io/user/ssm/2-state_space_models.html)
-* [<abbr title="Markov Chain Monte Carlo">MCMC</abbr> Convergence Diagnostic](https://search.r-project.org/CRAN/refmans/LaplacesDemon/html/Gelman.Diagnostic.html)
-* [Convergence and efficiency diagnostics for Markov Chains](https://mc-stan.org/rstan/reference/Rhat.html)
-* [Effective Sample Size (ESS) due to Auto-correlation](https://search.r-project.org/CRAN/refmans/LaplacesDemon/html/ESS.html)
-* [<abbr title="Monte Carlo Standard Error">MCSE</abbr>: Equation & References](https://search.r-project.org/CRAN/refmans/LaplacesDemon/html/MCSE.html)
-* [Understanding and interpreting confidence and credible intervals around effect estimates](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6630113/)
 
 <br>
 
@@ -109,6 +120,8 @@ GIT
 Graphing
 * [pyplot.plot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)
 * [matplotlib.markers](https://matplotlib.org/stable/api/markers_api.html#module-matplotlib.markers)
+* [model_to_graphviz](https://www.pymc.io/projects/docs/en/stable/api/model/generated/pymc.model_graph.model_to_graphviz.html)
+* [graphviz](https://graphviz.readthedocs.io/en/stable/index.html)
 
 <br>
 
