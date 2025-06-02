@@ -29,10 +29,10 @@ Bayesian Machine Learning Properties
 * [TensorFlow Probability](https://www.tensorflow.org/probability)
 * [Bayesian Modelling Notes](https://github.com/plausibilities/delineating#notes)
 * [Notation: State Space Model, Kalman Filter](https://dismalpy.github.io/user/ssm/2-state_space_models.html)
-* [<abbr title="Markov Chain Monte Carlo">MCMC</abbr> Convergence Diagnostic](https://search.r-project.org/CRAN/refmans/LaplacesDemon/html/Gelman.Diagnostic.html)
+* <abbr title="Markov Chain Monte Carlo">MCMC</abbr> [Convergence Diagnostic](https://search.r-project.org/CRAN/refmans/LaplacesDemon/html/Gelman.Diagnostic.html)
 * [Convergence and efficiency diagnostics for Markov Chains](https://mc-stan.org/rstan/reference/Rhat.html)
 * [Effective Sample Size (ESS) due to Auto-correlation](https://search.r-project.org/CRAN/refmans/LaplacesDemon/html/ESS.html)
-* [<abbr title="Monte Carlo Standard Error">MCSE</abbr>: Equation & References](https://search.r-project.org/CRAN/refmans/LaplacesDemon/html/MCSE.html)
+* <abbr title="Monte Carlo Standard Error">MCSE</abbr> [Equation & References](https://search.r-project.org/CRAN/refmans/LaplacesDemon/html/MCSE.html)
 * [Understanding and interpreting confidence and credible intervals around effect estimates](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6630113/)
 
 <br>
@@ -52,6 +52,9 @@ Forecasting
   * [Decompose](https://www.statsmodels.org/dev/generated/statsmodels.tsa.seasonal.seasonal_decompose.html)
   * [Forecasting with decomposition](https://otexts.com/fpp2/forecasting-decomposition.html), [ARIMA (AutoRegressive Integrated Moving Average)](https://www.statsmodels.org/dev/generated/statsmodels.tsa.arima.model.ARIMA.html#statsmodels.tsa.arima.model.ARIMA)
   * [STL Forecast Class: Seasonal Trend LOESS  Forecast Class](https://www.statsmodels.org/dev/generated/statsmodels.tsa.forecasting.stl.STLForecast.html#statsmodels.tsa.forecasting.stl.STLForecast)
+* Seasonal Component Modelling: Warnings
+  * ConvergenceWarning: Maximum Likelihood optimization failed to converge.
+  * OptimizeWarning: Desired error not necessarily achieved due to precision loss.
 * [Seasonal ARIMA models](https://otexts.com/fpp2/seasonal-arima.html)
   * [Seasonal AutoRegressive Integrated Moving Average with eXogenous regressors model](https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html#statsmodels.tsa.statespace.sarimax.SARIMAX)
   * [Seasonal Autoregressive Integrated Moving Average](https://machinelearningmastery.com/sarima-for-time-series-forecasting-in-python/)
@@ -169,6 +172,7 @@ TENSORFLOW
 * [TensorFlow & Docker](https://www.tensorflow.org/install/docker#examples_using_gpu-enabled_images)
 
 <br>
+<br>
 
 ## Snippets
 
@@ -193,10 +197,7 @@ os.environ['XLA_FLAGS'] = (
   f'--xla_force_host_platform_device_count={} ')
 ```
 
-Seasonal Component Modelling: Warnings
-* ConvergenceWarning: Maximum Likelihood optimization failed to converge.
-* OptimizeWarning: Desired error not necessarily achieved due to precision loss.
-
+<br>
 <br>
 
 ## NGINX, etc.
