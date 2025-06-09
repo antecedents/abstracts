@@ -232,6 +232,11 @@ NGINX
 
 Docker
 * [docker run](https://docs.docker.com/reference/cli/docker/container/run/)
+* [python: hub.docker.com](https://hub.docker.com/_/python/)
+
+graphviz
+* [model_to_graphviz](https://www.pymc.io/projects/docs/en/stable/api/model/generated/pymc.model_graph.model_to_graphviz.html)
+* [graphviz](https://graphviz.readthedocs.io/en/stable/index.html)
 
 vim & vi
 * [vi](https://linuxsimply.com/cheat-sheets/vi/)
